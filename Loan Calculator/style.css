@@ -1,0 +1,39 @@
+body{
+    background-color : grey;
+}
+
+#form1{
+    border : 1px solid grey;
+    border-radius: 10px;
+    background: white;
+    padding-bottom : 15px;
+    text-align: center;
+    width : 500px;
+    margin : auto;
+    margin-top: 70px;
+}
+
+#loan_amount,#interest_rate,#loan_term{
+    width : 400px;
+    height : 25px;
+}
+
+.btn{
+    width : 400px;
+    height : 27px;
+    background: black;
+    color : white;
+}
+
+#monthly_payment,#payment,#total_interest{
+    width : 300px;
+    height : 27px;
+}
+
+.lab{
+    font-size: 18px;
+}
+
+#loading,#result{
+    display: none;
+}

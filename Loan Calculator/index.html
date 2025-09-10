@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form1" action="#",method="post">
+        <header>
+            <h1> Loan Calculator </h1>
+        </header>
+  
+        <input id ="loan_amount" type="number" placeholder="Loan Amount($)" value="">
+        <br> <br>
+
+        <input id="interest_rate" type="number" placeholder="Interest(%)" value="">
+        <br> <br>
+
+        <input id="loan_term" type="number" placeholder="Years To Repay" value="">
+        <br> <br>
+
+        <button type="submit" class="btn" style="font-size: 15px;"> Calculate </button>
+        <br> <br>
+
+        <div>
+            <img id="loading" src="loading.gif" alt="Loading">
+        </div>
+        <div id="result">
+            <form id="form2">
+            <h2> Results </h2>
+            <label class="lab"> Monthly Payment: </label>
+            <input id="monthly_payment" type="number" readonly>
+            <br> <br>
+
+            <label class="lab"> Total Payment: </label>
+            <input id="payment" type="number" readonly>
+            <br> <br>
+
+            <label class="lab"> Total Interest: </label>
+            <input id="total_interest" type="number" readonly>
+            </form>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
